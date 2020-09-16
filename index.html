@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href=""/>
+    <title>Embajada Del Rey</title>
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bootstrap-4.5.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top" id="navbarColor">
+        <!-- Brand -->
+        <img src="resources/images/Logo.png" class="topLogo" alt="Embajada del Rey Logo">
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span><img src="/resources/images/list.svg" alt="Menu Icon" width="30" height="30"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about" style="color:black">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#live" style="color:black">En Vivo!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills" style="color:black">Donar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills" style="color:black">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills" style="color:black">Nuestra Historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills" style="color:black">Horario</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills" style="color:black">Direcciones</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <section class="welcome" id="about">
+      <video class="backgroundWelcome" autoplay muted loop id="introVideo">
+        <source src="resources/videos/Intro.mp4" type="video/mp4">
+      </video>
+      <div class="title">
+        <h2>Embajada del Rey</h2>
+      </div>
+    </section>
+
+    <section id="live">
+      <div>
+        <h2>En Vivo!</h2>
+        <div class="liveContainer">
+          <div class="liveContainer-item">
+            <h3>Prximo en:</h3>
+            <h3>time...</h3>
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th scope="col">Dia</th>
+                  <th scope="col">Hora</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Domingos</td>
+                  <td>10:30 a.m.</td>
+                </tr>
+                <tr>
+                  <td>Jueves</td>
+                  <td>7:00 p.m.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="liveContainer-item">
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FIglesiaEmbajadaDelRey%2Fvideos%2F2751494458425498%2F&show_text=0&width=560" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+          </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+
+    </section>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/hugo-perez-05400516a/" target="_blank"><img src="resources/linkedin.png" alt="Linkedin"></a>
+        <a href="https://github.com/hugohp19" target="_blank"><img src="resources/github.png" alt="Github"></a>
+        <a href="mailto:hp19@hotmail.com" target="_blank"><img src="resources/email.png" alt="Email"></a>
+        <a href="resources/HugoPerez-Resume.pdf" target="_blank"><img src="resources/resume.png" alt="Resume"></a>
+        <a href="https://www.instagram.com/thecodingrookie" target="_blank"><img src="resources/instagram.png" alt="Instagram"></a>
+        <h3>Embajada del Rey</h3>
+        <p>©2020. All Rights Reserved.</p>
+    </footer>
+
+    <!-- jQuery library -->
+    <script src="style/bootstrap-4.5.2-dist/js/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="style/bootstrap-4.5.2-dist/js/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="style/bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

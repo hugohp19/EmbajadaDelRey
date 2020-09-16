@@ -1,0 +1,242 @@
+
+/*****************/
+/* General Style */
+/*****************/
+
+:root{
+    --backgroundPrimary: #14CBFF;
+    --backgroundSeconddary: #058CB3;
+    --letterColor: #FF4F21;
+}
+
+h2{
+    font-family:  'Montserrat', Times, serif;
+    color: var(--letterColor);
+    font-weight: bold;
+}
+
+.button{
+    background-color: var(--backgroundPrimary);
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    width: 75px;
+    margin-bottom: 30px;
+}
+
+.button:hover{
+    background-color: var(--secondaryColor);
+
+}
+
+/*****************/
+/* Nav bar */
+/*****************/
+nav{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1030;
+}
+
+#navbarColor{
+    /*background-color: rgb(20, 203, 255, 0.8);*/
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+
+.topLogo{
+    width: 80px;
+    padding-right: 20px;
+    border-right: 1px solid var(--secondaryColor);
+    margin-right: 10px;
+}
+
+
+/*****************/
+/* Welcome Section */
+/*****************/
+.welcome{
+    margin-top: 0px;
+    position: relative;
+    overflow: hidden;
+    height: 650px;
+}
+
+
+.title{
+    position: absolute;
+    margin-top: 75px;
+    top: 35%;
+    left:0;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}
+
+.title h2{
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+}
+
+.backgroundWelcome{
+    position: relative;
+    margin-top: 75px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+/*****************/
+/* Live Section */
+/*****************/
+
+#live{
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: var(--backgroundPrimary);
+    text-align: center;
+    border-radius: 80% 0 80% 0;
+    height: auto;
+}
+
+.liveContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.liveContainer-item{
+    margin: 20px;
+    padding-top: 15px;
+    flex: 1 1;
+    min-width: 400px;
+    height: 100%;
+}
+
+iframe{
+    min-width: 400px;
+    width: 100%;
+    height: 400px;
+}
+
+#live h2 {
+    font-size: 45px;
+    font-weight: bold;
+    background-color: white;
+    width: 230px;
+    margin: auto;
+    border-radius: 0 50px 0 50px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+/*****************/
+/* Skill Section */
+/*****************/
+
+.skills{
+    margin-top: 50px;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    background-color: blue;
+}
+
+.skills h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logos img{
+    width: 140px;
+    padding: 15px;
+}
+
+.logos img:hover{
+    width: 160px;
+    padding: 15px;
+}
+
+/*****************/
+/* Footer */
+/*****************/
+
+footer{
+    background-color: var(--backgroundPrimary);
+    height: 150px;
+    margin: 100px 0 10px 0;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer img{
+    width: 30px;
+    margin: 10px;
+}
+
+footer h3{
+    font-size: 20px;
+    color: var(--secondaryColor);
+}
+
+footer p{
+    font-size: 10px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 740px){
+
+    .welcome{
+        margin-top: 30px;
+        padding-top: 0;
+        height: 400px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .welcome h2{
+        margin: 30px 0 0 0;
+        padding: 0 0 30px 10px;
+        text-align: center;
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .contactlogos{
+        margin: 0;
+    }
+
+
+    .button{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .project-items h3{
+        margin-top: 10px;
+    }
+}
